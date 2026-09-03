@@ -7,7 +7,7 @@
 > **View the visual summary and experimental breakdown on my [Portfolio Website ↗]([MASUKKAN_LINK_WEBSITE_PORTOPOLIO_KAMU_DISINI])**
 
 ## 📌 Problem Statement: The Methodology Crisis
-The Titanic dataset is the most famous sandbox in Machine Learning. However, most practitioners approach it purely as an algorithm competition, ignoring the structural integrity of their data processing. The critical issue often overlooked is **Data Leakage**—fitting scalers or imputers on the entire dataset *before* splitting it into train and test sets.
+The Titanic dataset is the most famous sandbox in Machine Learning. However, most practitioners approach it purely as an algorithm competition, ignoring the structural integrity of their data processing. The critical issue often overlooked is **Data Leakage** fitting scalers or imputers on the entire dataset *before* splitting it into train and test sets.
 
 This project is not just about predicting survival; it is a controlled experiment designed to measure exactly how Data Leakage impacts the performance of Logistic Regression, KNN, and Random Forest models.
 
@@ -49,11 +49,11 @@ While the optimized KNN model correctly predicted 94 non-survivors and 52 surviv
 
 ## 📂 Repository Structure
 ```text
-├── Dataset/
-│   └── titanic/                 # Raw and cleaned csv datasets
-├── images/                      # Experimental charts & EDA (viz_1, viz_11)
-├── Program/
-│   └── titanic_assignment.ipynb # Main experimental notebook (Pipeline & GridSearchCV)
+├── Data/
+│   └── train.csv                # csv datasets
+├── Images/                      # Experimental charts & EDA (viz_1, viz_11)
+├── Notebooks/
+│   └── titanic.ipynb            # Main experimental notebook (Pipeline & GridSearchCV)
 ├── requirements.txt             # Dependencies
 └── README.md
 ```
